@@ -5,6 +5,7 @@
 - **Strategic crisis, based on the brief, if the company does nothing for 12 months, what happens to its market position?:** The company will lose customers. 
 
 The core value of the logistics platform lies in the speedy expedition and coordination of operations. The more complex it becomes to handle, the less value it delivers. This will cause customers considering simplified alternatives to move to competitors.
+uiukyuky
 - **Moment of misery, what is the user likely doing outside the product (Google, spreadsheets, a competitor) because your tool isn’t serving them?:** The users need to resolve things quickly and move on. 
 
 Anything that slows them down will push them to find a workaround outside of the platform.  

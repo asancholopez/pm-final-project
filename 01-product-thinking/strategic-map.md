@@ -1,11 +1,10 @@
-# Strategic Discovery Map
-
-> **Module 1 · Lab 1.** Repo file `01-product-thinking/strategic-map.md` — part of your submission.
-> Do the lab in the **Module 1 · Exercise 1 Guide** (linked from the Module 1 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It's the discovery groundwork behind your `problem-hook.md`.
+# Strategic Discovery Map (Module 1)
 
 ## Responses
+- **Write one feature from the map that, if an engineer asked “why is this a priority for our 12-week roadmap?”, you honestly could not give a strategic answer for.:** Smart bottle integration. Very few users would benefit from it, plus it may depend on outside companies for the manufacturing. Also, it doesn't add to the core idea, that  all users will quickly and easily log their water intakes
+- **Write one feature that looks “correct” for the app but has zero strategic weight, you have no idea if it helps the company make money or whether a single user actually asked for it.:** Motivation: Progress ring, streaks, badges, challenges.
+We don't know who asked for this. We do not have a way of measuring the impact on user engagement for this.
+- **Compare V3 to your Step 1 baseline. What changed, and is the output objectively better, did the AI get smarter, or did your added PM knowledge (JTBD, effort/impact, retention) force it to be useful?:** The added knowledge and context made the model provide a more complete and better structured answer.
+- **Key takeaway: how does this prove the PM’s role is to think while the AI’s role is to execute?:** It shows that the more knowledge and understanding the PM has about the problem they need to solve, the better the prompt can be prepared to get useful answers. 
 
-- **Feature with no strategic answer (why is this a 12-week priority?):** _(not filled in)_
-- **Feature that looks "correct" but has zero strategic weight:** _(not filled in)_
-- **V3 vs your Step 1 baseline — what changed, and was it your PM knowledge that forced usefulness?:** _(not filled in)_
+The more understanding the PM has, the more meaning they can extract from the answers provided. All the information generated is only meaningful if we know what to do with it next for good decision making.

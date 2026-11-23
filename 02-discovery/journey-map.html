@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Future-State Journey — Experienced Long-Route Driver</title>
+<style>
+  @page { size: A4 landscape; margin: 10mm; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 28px 32px;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1f2933; background: #fff; max-width: 1240px;
+  }
+  header { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; border-bottom: 2px solid #1f2933; padding-bottom: 12px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { font-size: 13px; color: #52606d; margin: 0; }
+  .persona { font-size: 12px; color: #52606d; text-align: right; max-width: 460px; line-height: 1.45; }
+  .persona b { color: #1f2933; }
+
+  .today { margin: 14px 0 0; font-size: 12px; background: #fdf3f2; border-left: 4px solid #c0392b; padding: 8px 12px; color: #6b2a24; }
+  .today b { color: #c0392b; }
+
+  .timeline { position: relative; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 26px; }
+  .timeline::before {
+    content: ""; position: absolute; left: 6%; right: 6%; top: 17px; height: 3px; background: #2b6cb0; z-index: 0;
+  }
+  .stage { position: relative; z-index: 1; }
+  .dot {
+    width: 36px; height: 36px; border-radius: 50%; background: #2b6cb0; color: #fff;
+    font-weight: 700; font-size: 16px; display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 10px; border: 4px solid #fff; box-shadow: 0 0 0 2px #2b6cb0;
+  }
+  .card { border: 1px solid #cbd2d9; border-radius: 8px; overflow: hidden; background: #fff; }
+  .card h2 { margin: 0; font-size: 15px; padding: 10px 12px; background: #ebf4fb; color: #1a4971; text-align: center; }
+  .row { padding: 8px 12px; border-top: 1px solid #e4e7eb; }
+  .label { font-size: 10px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #7b8794; margin-bottom: 3px; }
+  .text { font-size: 13px; line-height: 1.4; }
+  .arrow { color: #2b6cb0; font-weight: 700; }
+  .row.pain { background: #f7f9fb; }
+  .row.pain .label { color: #c0392b; }
+
+  .adv { margin-top: 22px; }
+  .adv h3 { font-size: 14px; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .05em; color: #1f2933; }
+  .adv ol { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 0; padding: 0; list-style: none; counter-reset: a; }
+  .adv li { counter-increment: a; border: 1px solid #b7dfc6; background: #f0faf4; border-radius: 8px; padding: 10px 12px 10px 40px; position: relative; font-size: 13px; line-height: 1.4; }
+  .adv li::before { content: counter(a); position: absolute; left: 12px; top: 9px; width: 20px; height: 20px; border-radius: 50%; background: #2f855a; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+
+  @media print { body { zoom: .78; padding: 0; } }
+  footer { margin-top: 16px; font-size: 11px; color: #7b8794; border-top: 1px solid #e4e7eb; padding-top: 8px; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Future-State Journey: One Route, One Record</h1>
+    <p class="sub">From paper and WhatsApp backups to an app drivers trust from first stop to last</p>
+  </div>
+  <div class="persona">
+    <b>Persona:</b> Experienced drivers on long routes (40+ stops) using Android phones.<br>
+    <b>Goal:</b> Finish every stop quickly and leave a delivery record they don't have to double-check.<br>
+    <b>Friction:</b> Core actions are slow and unreliable.
+  </div>
+</header>
+
+<div class="today">
+  <b>Today's workaround:</b> paper manifest as backup → text the dispatcher instead of “Mark delivered” → retake proof-of-delivery photos up to 3× → after a crash, phone the office (~20 min) → finish the route off-app.
+</div>
+
+<section class="timeline">
+  <div class="stage">
+    <div class="dot">1</div>
+    <div class="card">
+      <h2>Start the Day</h2>
+      <div class="row"><div class="label">User Action</div><div class="text">Taps “Start Route” on home screen <span class="arrow">→</span> route begins in one tap.</div></div>
+      <div class="row"><div class="label">Internal State</div><div class="text">Whole route saved on phone <span class="arrow">→</span> leaves the paper manifest behind.</div></div>
+      <div class="row pain"><div class="label">Pain Point Addressed</div><div class="text">“Start Route” buried 2–3 levels deep <span class="arrow">→</span> now first thing on screen.</div></div>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="dot">2</div>
+    <div class="card">
+      <h2>Drive the Route</h2>
+      <div class="row"><div class="label">User Action</div><div class="text">Drives past stop 40 without interruption <span class="arrow">→</span> no stops lost.</div></div>
+      <div class="row"><div class="label">Internal State</div><div class="text">Stops bracing for a crash <span class="arrow">→</span> focuses on driving, not backups.</div></div>
+      <div class="row pain"><div class="label">Pain Point Addressed</div><div class="text">Android crash past ~40 stops <span class="arrow">→</span> no 20-minute call to the office.</div></div>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="dot">3</div>
+    <div class="card">
+      <h2>Complete the Stop</h2>
+      <div class="row"><div class="label">User Action</div><div class="text">Taps “Mark delivered” once; time, location, photo attach <span class="arrow">→</span> logged in seconds.</div></div>
+      <div class="row"><div class="label">Internal State</div><div class="text">Sees “Saved, uploading when signal returns” <span class="arrow">→</span> no retakes, no doubt.</div></div>
+      <div class="row pain"><div class="label">Pain Point Addressed</div><div class="text">Three screens and silent photo failures <span class="arrow">→</span> one tap, confirmed record.</div></div>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="dot">4</div>
+    <div class="card">
+      <h2>Close the Route</h2>
+      <div class="row"><div class="label">User Action</div><div class="text">Completes last stop <span class="arrow">→</span> day's record already complete, nothing to reconcile.</div></div>
+      <div class="row"><div class="label">Internal State</div><div class="text">Heads home without texting dispatch <span class="arrow">→</span> work is visible and done.</div></div>
+      <div class="row pain"><div class="label">Pain Point Addressed</div><div class="text">Texts to dispatch and double entry on paper <span class="arrow">→</span> app is the single record.</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="adv">
+  <h3>Competitive Advantages over the Manual Workaround</h3>
+  <ol>
+    <li>Recorded once, not twice <span class="arrow">→</span> no paper and chat duplication at every stop.</li>
+    <li>Dispatch sees status live <span class="arrow">→</span> no texts, calls or 20-minute crash recoveries.</li>
+    <li>Confirmed proof of delivery <span class="arrow">→</span> a record customers and reporting can trust.</li>
+  </ol>
+</section>
+
+<footer>
+  Future state is a design hypothesis, not validated. Pain points come from 12 research sessions and 10 open bug reports (02-discovery/ai-synthesis.md).
+  Stage 4 and Advantage 2 also depend on fixing the 20–60 min dispatcher dashboard lag. Stage 3's auto-captured location depends on the known GPS drift (up to 200 m).
+</footer>
+
+</body>
+</html>

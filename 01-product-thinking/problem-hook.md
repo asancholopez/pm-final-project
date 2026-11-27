@@ -10,12 +10,12 @@ The core value of the logistics platform lies in the speedy expedition and coord
 The drivers need to resolve things quickly and move on. 
 
 Anything that slows them down will push them to find a workaround outside of the platform.
-- **Problem hook, summarize the business risk and user pain into one urgent sentence.:** We must stop mid-market fleets from churning to leaner tools by removing the unnecessary steps that slow fleet drivers daily dispatch work
+- **Problem hook, summarize the business risk and user pain into one urgent sentence.:** We must stop mid-market fleets from churning to leaner tools by removing the unnecessary steps that slow fleet drivers daily delivery close-out.
 - **Value proposition, based on the proposed initiative (Spotlight or Velocity), what is the new value and why is it urgent to launch now?:** For drivers, we will restore fast execution on core tasks (eg. closing deliveries) while keeping enterprise compliance lightweight because operational slowdown is driving daily users off the platform and putting core revenue at risk of churning to leaner tools.
 
 ## Cold-read your own hook
-- **Is the business risk high enough to justify a new initiative, a high-stakes threat, or a minor inconvenience?:** Yes, frontline users are getting disengaged. Our largest enterprise account is actively trialing a leaner competitor and calls RouteLogic "an administrative burden that slows their most time-sensitive work. Other customers are also considering alternatives that promise the fast execution of daily tasks that was one of our core values in the past.
-- **Is the moment of misery a systemic problem or just an edge case?:** It is a systemic problem all frontline users face.
+- **Is the business risk high enough to justify a new initiative, a high-stakes threat, or a minor inconvenience?:** Yes, drivers users are getting disengaged. Our largest enterprise account is actively trialing a leaner competitor and calls RouteLogic "an administrative burden that slows their most time-sensitive work. Other customers are also considering alternatives that promise the fast execution of daily tasks that was one of our core values in the past.
+- **Is the moment of misery a systemic problem or just an edge case?:** It is a systemic problem all frontline users face, particularly drivers.
 
 The brief describes the struggle as affecting the 95% of customers who rely on RouteLogic daily, while the features adding the friction serve only a  few
 - **Does the value proposition actually remove the obstacle you identified, or is it a generic feature?:** Yes. The value proposition is focused on restoring one of the core value for our users: fast execution. 
